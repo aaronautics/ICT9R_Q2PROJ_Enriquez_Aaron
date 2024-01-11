@@ -1,11 +1,48 @@
-#MEALS{
-	color:orangered;
+#MEALS {
+  color: orangered;
+  font-size: 24px;
 }
 
-table{
-	border-color:#FEC208;
+table {
+  border-color: #fec208;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#DRINKS{
-	color:orangered
-;}
+#DRINKS {
+  color: orangered;
+  font-size: 24px;
+}
+
+th {
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  background-color: #fec208;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffa500;
+}
